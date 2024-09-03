@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {int numer;
-   char answ;//let use character to declare answers
+   char answ;// use character to declare answers
 
  do{cout<<"Please enter a positive integer: ";
  // do while statement
@@ -14,7 +14,7 @@ if(numer%x==0)
 {
     std::cout<<x<<"\n";
 }}
-for(int p=numer;p<=1;p++){
+for(int p=numer;p<=1;p++){//for loop
  if(numer%2!=0){
      std::cout<<numer;
 
